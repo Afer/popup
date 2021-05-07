@@ -1,0 +1,21 @@
+{
+   "background": {
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "cpr.png",
+      "default_popup": "popup.html",
+      "default_title": "CP Resurrect"
+   },   
+	"icons": {
+	  "16": "cpr.png",
+	  "32": "cpr.png",
+	  "48": "cpr.png",
+	  "128": "cpr.png"
+	},
+   "description": "CP Ressurect brings back the original Chrome Poster for interacting with http requests in the browser",
+   "manifest_version": 2,
+   "name": "CP Resurrect",
+   "permissions": [ "http://*/", "https://*/" ],
+   "version": "1.0"
+}

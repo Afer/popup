@@ -1,0 +1,45 @@
+html {
+    min-width: 400px;
+    max-width: 800px;
+}
+
+div {
+    width: 100%;
+	box-sizing: border-box;
+	word-break: break-all;
+}
+
+#header_list {
+	border: 2px solid black;
+    padding: 3px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerList div {
+    width: 50%;
+}
+
+.header {
+    width: 50%;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+#header_list .headerList {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+	padding: 3px 0;
+}
+
+.title {
+	font-size: 14px;
+	font-weight: bold;
+}

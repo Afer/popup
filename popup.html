@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+  </head>
+  <body>
+    <div id="urlbox">
+		<div class='title'>URL:</div>
+		<input type="text" size="70" id="url" value="http://"/>
+    </div>
+    <br />
+    <div id="header">
+		<div class='title'>Headers:</div>
+		Name: <input type="text" size="15" id="header_name" value=""/>
+		Value: <input type="text" size="15" id="header_value" value=""/>
+		<input type="button" id="add_header_button" value="Add/Change"/>
+		<br />
+		value '##' to delete
+		<br />
+		<br/ >
+		<div class="jwtShortcut">
+			JWT: <input type="text" size="15" id="jwt_val" value=""/> <input type="button" id="add_jwt_button" value="Set/Change"/>
+		</div>
+		<br />
+		
+		<div id="header_list">
+		</div>
+    </div>
+    <br />
+    <div id="body">
+		<div class='title'>Content Body:</div>
+		<textarea id="content_body" rows="3" cols="60"></textarea>
+    </div>
+    <br />
+    <div id="actions">
+      <input type="button" id="get_request_button" value="GET"/>
+      <input type="button" id="post_request_button" value="POST"/>
+      <input type="button" id="head_request_button" value="HEAD"/>
+      <input type="button" id="put_request_button" value="PUT"/>
+      <input type="button" id="delete_request_button" value="DELETE"/>
+    </div>
+    <br />
+	<div class='title'>Response:</div>
+    <div id="response_header">
+    </div>
+    <br />
+    <div id="response_body">
+    </div>
+    <script src="js/popup.js"> </script>
+  </body>
+</html>
